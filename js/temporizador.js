@@ -1,3 +1,10 @@
+/**
+ *  Funcion donde empezara la cuenta atras y lo mostrara en el elemento indicado
+ *  @param {Number} time Tiempo del temporizador
+ *  @param {String} elementId Id del elemento que vamos a mostrar los datos
+ *  @param {Number} intervalo Tiempo que en segundos, donde manda el tiempo que tardara en cambiar numero a numero 
+ * 
+ */
 function temporizador(counter, elementId, intervalo) {
 
     let elemento = document.getElementById(elementId);
